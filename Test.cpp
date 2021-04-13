@@ -201,7 +201,6 @@ public:
                 Insert_First(data);
             }
             else {
-
                 if (add == nullptr) {
                     Insert_First(data);
                 }
@@ -221,7 +220,6 @@ public:
         else {
             return false;
         }
-
     }
     bool Swap(Node < T >* a, Node < T >* b) {
         bool Swapped = false;
@@ -246,5 +244,4 @@ int main() {
     ll.Insert_First(14);
     ll.Swap(ll.Find(12), ll.Find(13));
     ll.print();
-
 }
